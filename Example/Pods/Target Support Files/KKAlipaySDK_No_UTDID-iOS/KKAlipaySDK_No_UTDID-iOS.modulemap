@@ -1,0 +1,6 @@
+framework module KKAlipaySDK_No_UTDID_iOS {
+  umbrella header "KKAlipaySDK_No_UTDID-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
