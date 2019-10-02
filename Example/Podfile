@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KKAlipaySDK_No_UTDID-iOS_Example' do
+  pod 'KKAlipaySDK_No_UTDID-iOS', :path => '../'
+
+  target 'KKAlipaySDK_No_UTDID-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
