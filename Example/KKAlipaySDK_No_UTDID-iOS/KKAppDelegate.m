@@ -7,6 +7,7 @@
 //
 
 #import "KKAppDelegate.h"
+#import <AlipaySDK/AlipaySDK.h>
 
 @implementation KKAppDelegate
 
