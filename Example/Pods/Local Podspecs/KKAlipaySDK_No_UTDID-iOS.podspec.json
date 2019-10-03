@@ -18,10 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "vendored_frameworks": "KKAlipaySDK_No_UTDID-iOS/Classes/**/AlipaySDK.framework",
+  "vendored_frameworks": "KKAlipaySDK_No_UTDID-iOS/Classes/**/*.framework",
   "resource_bundles": {
     "KKAlipaySDK_No_UTDID-iOS": [
-      "KKAlipaySDK_No_UTDID-iOS/Assets/AlipaySDK.bundle"
+      "KKAlipaySDK_No_UTDID-iOS/Assets/*.bundle"
     ]
   },
   "requires_arc": true,

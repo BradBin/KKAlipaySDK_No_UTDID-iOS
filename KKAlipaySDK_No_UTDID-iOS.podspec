@@ -32,10 +32,10 @@ AlipaySDK解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.
 
    # s.public_header_files = 'Pod/Classes/**/*.h'
    # s.source_files = 'KKAlipaySDK_No_UTDID-iOS/Classes/**/*.{h,m}'
-   s.vendored_frameworks = "KKAlipaySDK_No_UTDID-iOS/Classes/**/AlipaySDK.framework"
+   s.vendored_frameworks = "KKAlipaySDK_No_UTDID-iOS/Classes/**/*.framework"
    
     s.resource_bundles = {
-      'KKAlipaySDK_No_UTDID-iOS' => ['KKAlipaySDK_No_UTDID-iOS/Assets/AlipaySDK.bundle']
+      'KKAlipaySDK_No_UTDID-iOS' => ['KKAlipaySDK_No_UTDID-iOS/Assets/*.bundle']
     }
   
   s.requires_arc = true
