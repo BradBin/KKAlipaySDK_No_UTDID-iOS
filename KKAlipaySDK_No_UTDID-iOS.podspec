@@ -39,7 +39,7 @@ AlipaySDK解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.
     }
   
   s.requires_arc = true
-  s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion"
+  s.frameworks = "SystemConfiguration", "CoreTelephony", "QuartzCore", "CoreText", "CoreGraphics", "UIKit", "Foundation", "CFNetwork", "CoreMotion","WebKit"
   s.libraries = "z", "c++"
   # s.dependency 'AFNetworking', '~> 2.3'
 end
