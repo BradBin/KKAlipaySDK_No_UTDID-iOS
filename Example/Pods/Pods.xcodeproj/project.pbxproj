@@ -526,23 +526,6 @@
 			};
 			name = Debug;
 		};
-		8AACFC2B9A3D0F3D33DB7576AE658A1F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A2B4826B4BCEC87D738E895B5B20873 /* KKAlipaySDK_No_UTDID-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KKAlipaySDK_No_UTDID-iOS";
-				IBSC_MODULE = KKAlipaySDK_No_UTDID_iOS;
-				INFOPLIST_FILE = "Target Support Files/KKAlipaySDK_No_UTDID-iOS/ResourceBundle-KKAlipaySDK_No_UTDID-iOS-KKAlipaySDK_No_UTDID-iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = "KKAlipaySDK_No_UTDID-iOS";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -667,6 +650,22 @@
 			};
 			name = Debug;
 		};
+		A51DBB39F6E5912352DE2D1E8BEBBB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2B4826B4BCEC87D738E895B5B20873 /* KKAlipaySDK_No_UTDID-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KKAlipaySDK_No_UTDID-iOS";
+				INFOPLIST_FILE = "Target Support Files/KKAlipaySDK_No_UTDID-iOS/ResourceBundle-KKAlipaySDK_No_UTDID-iOS-KKAlipaySDK_No_UTDID-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "KKAlipaySDK_No_UTDID-iOS";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		B5958BFB7D2054B407487E51D856BB4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A2B4826B4BCEC87D738E895B5B20873 /* KKAlipaySDK_No_UTDID-iOS.xcconfig */;
@@ -680,6 +679,22 @@
 			};
 			name = Debug;
 		};
+		D4E364D5ED5B56613BBB3873F39615B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2B4826B4BCEC87D738E895B5B20873 /* KKAlipaySDK_No_UTDID-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KKAlipaySDK_No_UTDID-iOS";
+				INFOPLIST_FILE = "Target Support Files/KKAlipaySDK_No_UTDID-iOS/ResourceBundle-KKAlipaySDK_No_UTDID-iOS-KKAlipaySDK_No_UTDID-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "KKAlipaySDK_No_UTDID-iOS";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		DCC79A1581EB893020528B3B344C97CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A2B4826B4BCEC87D738E895B5B20873 /* KKAlipaySDK_No_UTDID-iOS.xcconfig */;
@@ -691,23 +706,6 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E2A3580EA1B96D411F1C2CE578E7AEF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A2B4826B4BCEC87D738E895B5B20873 /* KKAlipaySDK_No_UTDID-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KKAlipaySDK_No_UTDID-iOS";
-				IBSC_MODULE = KKAlipaySDK_No_UTDID_iOS;
-				INFOPLIST_FILE = "Target Support Files/KKAlipaySDK_No_UTDID-iOS/ResourceBundle-KKAlipaySDK_No_UTDID-iOS-KKAlipaySDK_No_UTDID-iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = "KKAlipaySDK_No_UTDID-iOS";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -760,8 +758,8 @@
 		3C680619EA6BCFB4F3FF87AF857F7B87 /* Build configuration list for PBXNativeTarget "KKAlipaySDK_No_UTDID-iOS-KKAlipaySDK_No_UTDID-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8AACFC2B9A3D0F3D33DB7576AE658A1F /* Debug */,
-				E2A3580EA1B96D411F1C2CE578E7AEF2 /* Release */,
+				A51DBB39F6E5912352DE2D1E8BEBBB79 /* Debug */,
+				D4E364D5ED5B56613BBB3873F39615B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
