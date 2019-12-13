@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KKAlipaySDK_No_UTDID-iOS'
   s.version          = '15.6.8'
-  s.summary          = 'AlipaySDK解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.'
+  s.summary          = '解决集成百川sdk、友盟等sdk等出现UTDID冲突情况.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
